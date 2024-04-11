@@ -1,0 +1,88 @@
+* {
+    font-family: Helvetica;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    color: rgba(0, 0, 0, 0.752);
+}
+
+.container {
+    padding: 7vw;
+    padding-top: 2vw;
+    padding-bottom: 0vw;
+}
+
+/* Repo name & Image */
+
+.top {
+    display: flex;
+    align-items: center;
+
+}
+
+img {
+    margin-top: 50px;
+}
+
+.heading {
+    display: flex;
+    font-size: 4.3rem;
+    text-align: left;
+}
+
+.reponame {
+    font-weight: 700;
+}
+
+/* Tagline */
+
+.tagline {
+    width: 55vw;
+    font-size: 2.149rem;
+    font-weight: 500;
+    color: gray;
+    margin-top: -50px;
+}
+
+/* icons */
+
+.icons {
+    margin-top: 100px;
+    display: flex;
+}
+
+.parts {
+    margin-left: 4vw;
+}
+
+.icon {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 5vw;
+}
+
+.icon span {
+    color: gray;
+    font-size: 2rem;
+}
+
+.name {
+    margin-left: 3.6vw;
+    font-size: 1.5rem;
+    color: gray;
+    margin-top: -15px;
+}
+
+/* Buttom Line */
+
+.line {
+    width: 100vw;
+    height: 27px;
+    background-color: rgba(211, 56, 0, 0.822);
+    position: fixed;
+    bottom: 0px;
+}
